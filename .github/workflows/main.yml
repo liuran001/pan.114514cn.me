@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  docs:
+  main:
     runs-on: ubuntu-latest
 
     env:
@@ -41,8 +41,9 @@ jobs:
         run: |
           yarn install
 
-      - name: Build documentation site
+      - name: Build site
         run: |
+          export CI=false
           yarn run build
 
       - name: Deploy to GitHub Pages
