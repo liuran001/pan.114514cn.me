@@ -162,7 +162,7 @@ class UserAvatarPopoverCompoment extends Component {
                                 <Avatar
                                     className={classes.largeAvatar}
                                     src={
-                                        "/api/v3/user/avatar/" + user.id + "/l"
+                                        "https://pan_api.114514cn.me/api/v3/user/avatar/" + user.id + "/l"
                                     }
                                 />
                             </div>

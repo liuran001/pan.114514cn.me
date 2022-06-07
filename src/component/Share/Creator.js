@@ -57,7 +57,7 @@ export default function Creator(props) {
             <Avatar
                 className={classes.avatar}
                 alt={props.share.creator.nick}
-                src={"/api/v3/user/avatar/" + props.share.creator.key + "/l"}
+                src={"https://pan_api.114514cn.me/api/v3/user/avatar/" + props.share.creator.key + "/l"}
                 onClick={() => userProfile()}
             />
             <Typography variant="h6" className={classes.shareDes}>

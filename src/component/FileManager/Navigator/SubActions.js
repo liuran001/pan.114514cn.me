@@ -202,7 +202,7 @@ export default function SubActions({ isSmall, inherit }) {
                 >
                     <Avatar
                         style={{ height: 23, width: 23 }}
-                        src={"/api/v3/user/avatar/" + share.creator.key + "/s"}
+                        src={"https://pan_api.114514cn.me/api/v3/user/avatar/" + share.creator.key + "/s"}
                     />
                 </IconButton>
             )}

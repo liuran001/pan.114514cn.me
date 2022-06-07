@@ -2,7 +2,7 @@ import axios from "axios";
 import Auth from "./Auth";
 import i18next from "../i18n";
 
-export const baseURL = "/api/v3";
+export const baseURL = "https://pan_api.114514cn.me/api/v3";
 
 export const getBaseURL = () => {
     return baseURL;

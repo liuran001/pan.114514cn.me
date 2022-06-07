@@ -408,7 +408,7 @@ export default function File() {
                                             target={"_blank"}
                                             color="inherit"
                                             href={
-                                                "/api/v3/admin/file/preview/" +
+                                                "https://pan_api.114514cn.me/api/v3/admin/file/preview/" +
                                                 row.ID
                                             }
                                         >

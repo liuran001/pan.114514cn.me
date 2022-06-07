@@ -634,7 +634,7 @@ class UserSettingCompoment extends Component {
                                 <ListItemAvatar>
                                     <Avatar
                                         src={
-                                            "/api/v3/user/avatar/" +
+                                            "https://pan_api.114514cn.me/api/v3/user/avatar/" +
                                             user.id +
                                             "/l"
                                         }

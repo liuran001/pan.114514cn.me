@@ -172,7 +172,7 @@ export default function Index() {
             });
 
         axios
-            .get("/api/v3/admin/news?tag=" + t("summary.newsTag"))
+            .get("https://pan_api.114514cn.me/api/v3/admin/news?tag=" + t("summary.newsTag"))
             .then((response) => {
                 setNews(response.data.data);
                 const res = {};

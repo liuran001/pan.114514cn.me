@@ -23,7 +23,7 @@ const baseConfig = {
 
 const cdBackendConfig = {
     ...baseConfig,
-    baseURL: "/api/v3",
+    baseURL: "https://pan_api.114514cn.me/api/v3",
     withCredentials: true,
 };
 

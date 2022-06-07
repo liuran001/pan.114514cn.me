@@ -198,7 +198,7 @@ export default function OneDriveGuide(props) {
                         OptionsSerialized: {
                             ...policy.OptionsSerialized,
                             od_redirect: new URL(
-                                "/api/v3/callback/onedrive/auth",
+                                "https://pan_api.114514cn.me/api/v3/callback/onedrive/auth",
                                 response.data.siteURL
                             ).toString(),
                         },
