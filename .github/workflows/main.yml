@@ -39,7 +39,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          yarn --frozen-lockfile
+          yarn install
 
       - name: Build documentation site
         run: |
